@@ -14,8 +14,10 @@
         </div>
     </div>
 
-    <br>
-    <div class="wrapper">
+    <br/>
+    
+    <center><button ng-click="ShowForm()" ng-hide="formVisibility">Agregar alumno</button></center>
+    <div ng-show="formVisibility" class="wrapper">
         <h2>Añadir un Contacto</h2>
         Nombre: <input type="text" ng-model="nuevoAlumno.nombre"></input>
         Telefono: <input type="text" ng-model="nuevoAlumno.telefono"></input>

@@ -32,3 +32,17 @@ h1{
     border-bottom: thin solid #ccc;
     padding: 10px;
 }
+
+button {
+    background:#070;
+    color:#fff;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 5px auto;
+}
+button:hover {
+    background: #0B0;
+}
+
+
+
